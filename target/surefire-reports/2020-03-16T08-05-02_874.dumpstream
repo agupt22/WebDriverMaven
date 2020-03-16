@@ -1,0 +1,19 @@
+# Created at 2020-03-16T08:05:03.495
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Eclipse\Selenium\PageObjectModelBasics\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
+# Created at 2020-03-16T08:05:07.800
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2020-03-16T08:05:07.801
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/C:/Users/amitg/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+
+# Created at 2020-03-16T08:05:07.803
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+
+# Created at 2020-03-16T08:05:07.807
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2020-03-16T08:05:07.808
+WARNING: All illegal access operations will be denied in a future release
+
