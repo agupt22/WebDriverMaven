@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-16T02:35:34Z" name="Page Object Model Basics" finished-at="2020-03-16T02:36:00Z" duration-ms="25699">
+  <suite started-at="2020-03-16T06:44:49Z" name="Page Object Model Basics" finished-at="2020-03-16T06:45:11Z" duration-ms="22015">
     <groups>
     </groups>
-    <test started-at="2020-03-16T02:35:34Z" name="Login Test" finished-at="2020-03-16T02:36:00Z" duration-ms="25699">
+    <test started-at="2020-03-16T06:44:49Z" name="Login Test" finished-at="2020-03-16T06:44:57Z" duration-ms="8067">
       <class name="com.amit.testcases.LoginTest">
-        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.amit.testcases.LoginTest@42b21d99]" started-at="2020-03-16T02:35:35Z" name="loginTest" data-provider="dp" finished-at="2020-03-16T02:35:59Z" duration-ms="24967" status="PASS">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.amit.testcases.LoginTest@1237e0be]" started-at="2020-03-16T06:44:49Z" name="loginTest" data-provider="dp" finished-at="2020-03-16T06:44:57Z" duration-ms="7839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amit.testcases.LoginTest@42b21d99]" started-at="2020-03-16T02:36:00Z" name="tearDown" finished-at="2020-03-16T02:36:01Z" duration-ms="728" status="PASS">
+      </class> <!-- com.amit.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2020-03-16T06:44:58Z" name="Create Account Test" finished-at="2020-03-16T06:45:11Z" duration-ms="13929">
+      <class name="com.amit.testcases.CreateAccountTest">
+        <test-method signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.amit.testcases.CreateAccountTest@c6e0f32]" started-at="2020-03-16T06:44:58Z" name="createAccountTest" data-provider="dp" finished-at="2020-03-16T06:45:11Z" duration-ms="13880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountname=Amit, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.amit.testcases.CreateAccountTest -->
+      <class name="com.amit.testcases.LoginTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amit.testcases.LoginTest@1237e0be]" started-at="2020-03-16T06:45:11Z" name="tearDown" finished-at="2020-03-16T06:45:12Z" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amit.testcases.LoginTest -->
-    </test> <!-- Login Test -->
+    </test> <!-- Create Account Test -->
   </suite> <!-- Page Object Model Basics -->
 </testng-results>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="24.967">
+           time="7.839">
   <properties />
   
   
-            <testcase name="loginTest" time="24.967" classname="com.amit.testcases.LoginTest" />
+            <testcase name="loginTest" time="7.839" classname="com.amit.testcases.LoginTest" />
       
 </testsuite>

@@ -13,5 +13,10 @@
 			<class name="com.amit.testcases.LoginTest"/>
 		</classes>
 	</test> <!-- Test -->
+<test name="Create Account Test">
+		<classes>
+			<class name="com.amit.testcases.CreateAccountTest"/>
+		</classes>
+	</test> <!-- Test -->
 	
 </suite> <!-- Suite -->
